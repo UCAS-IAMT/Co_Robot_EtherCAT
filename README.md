@@ -10,9 +10,7 @@
 ————终端1————
 ```
 cd /home/robot/Work/EtherCAT/acontis/master
-
 su            //pwd = robot
-
 ./runECM.sh
 
 （停止命令）./stopECM.sh
@@ -21,20 +19,16 @@ su            //pwd = robot
 ————终端2————
 ```
 cd catkin_ws
-
 su            //pwd = robot
-
-roslaunch device_driver device_driver.launch
+source devel/setup.bash
+roslaunch device_driver device_driver.launch （一定要先进入管理员模式）
 ```
 
 ————终端3————
 ```
 cd catkin_ws
-
 source devel/setup.bash
-
 roslaunch device_driver start_controller.launch controller_name:=joint_trajectory_controller
-
 roslaunch arm25kg_moveit_config demo.launch
 ```
 
