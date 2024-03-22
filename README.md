@@ -5,7 +5,7 @@
 
 先确定网线、48v电源线、24v电源线已经插上；ethercat板子冒蓝光（检查每个关节）
 
-#————终端1————
+————终端1————
 ```
 cd /home/robot/Work/EtherCAT/acontis/master
 
@@ -16,7 +16,7 @@ su            //pwd = robot
 （停止命令）./stopECM.sh
 ```
 
-#————终端2————
+————终端2————
 ```
 cd catkin_ws
 
@@ -25,7 +25,7 @@ su            //pwd = robot
 roslaunch device_driver device_driver.launch
 ```
 
-#————终端3————
+————终端3————
 ```
 cd catkin_ws
 
