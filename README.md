@@ -1,6 +1,8 @@
 # Co_Robot_EtherCAT
 七轴25kg协作机械臂EtherCAT通讯控制
 
+**系统环境**：Ubuntu16.04 + Ros1-kinetic
+
 ### 启动25kg机械臂——实物控制demo (moveit控制)
 
 先确定网线、48v电源线、24v电源线已经插上；ethercat板子冒蓝光（检查每个关节）
