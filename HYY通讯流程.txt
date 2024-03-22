@@ -1,0 +1,26 @@
+虚拟机网络设配器设置为桥接模式，网络链接设置为手动，IP4地址添加192.168.0.01设置在同一个网段。
+机器人IP地址192.168.0.99
+
+
+流程
+
+1、 ssh robot@192.168.0.99  密码：robot
+
+2、su 密码root
+
+3、pkill EtherCATMaster
+
+4、pkill RobotMain
+
+5、cd Work\EtherCAT\acion\master
+
+6、./run + Tab建 + 回车   (链接通讯)
+
+7、打开新终端 
+
+8、cd Work/system
+
+9、./run+ Tab建 + 回车  （打开控制器）
+
+10、打开windows下的示教器软件HYYrobot、、
+
