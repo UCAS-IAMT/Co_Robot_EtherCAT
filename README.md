@@ -1,4 +1,4 @@
-# Co_Robot_EtherCAT-作者：胡翰泽
+# Co_Robot_EtherCAT——作者：胡翰泽
 七轴25kg协作机械臂EtherCAT通讯控制
 
 **系统环境**：Ubuntu16.04 + Ros1-kinetic
