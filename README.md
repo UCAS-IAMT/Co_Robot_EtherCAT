@@ -49,6 +49,17 @@ roslaunch arm25kg_moveit_config demo.launch
 ```
 
 ## 2.windows机械臂示教器使用
+<div align="center">
+<table>
+<tr>
+<td>
+
+![](https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/images/2.1.jpg)  
+
+</td>
+</tr>
+</table>
+</div>
 
 ### 启动
 双击 ***\HBRobot\HBRobotConfigure.exe
