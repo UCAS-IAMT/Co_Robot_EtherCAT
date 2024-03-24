@@ -48,5 +48,9 @@ roslaunch device_driver start_controller.launch controller_name:=joint_trajector
 roslaunch arm25kg_moveit_config demo.launch
 ```
 
-## windows机械臂示教器使用
+## 2.windows机械臂示教器使用
 
+### 启动
+双击 ***\HBRobot\HBRobotConfigure.exe
+
+### 使用
