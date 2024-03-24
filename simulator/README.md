@@ -1,11 +1,38 @@
-# ros_control_co_robot
+# 示教器使用
 
-## urdf
+## Ubuntu16.04
+**pwd** = robot
 
-co_robot.urdf ：最初的建模，去掉两个夹爪；
-co_robot_environment.urdf.xacro ：更改了配色，设置了环境，末端重新添加了魔改版kuka力矩传感；
+终端1
+```
+su
+pkill EtherCATMaster
+pkill RobotMain
+```
 
-## launch
+终端2
+```
+cd /home/robot/Work/EtherCAT/acontis/master
+su           
+./runECM.sh
+```
 
-co_robot_urdf.launch ：co_robot.urdf + 7个joint的position_controller；
-co_robot_urdf_environment.launch ：co_robot_environment.urdf.xacro + 7个joint的position_controller；
+终端3
+```
+cd /home/robot/Work/system
+su
+./runrobot.sh
+```
+
+显示如下：
+<div align="center">
+<table>
+<tr>
+<td>
+
+![](https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/images/simulator_1.jpg)  
+
+</td>
+</tr>
+</table>
+</div>
