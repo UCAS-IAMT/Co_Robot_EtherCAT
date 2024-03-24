@@ -3,6 +3,8 @@
 
 **系统环境**：Ubuntu16.04 + Ros1-kinetic ；上位机示教器（windows 10测试通过）
 
+**感谢韩冰老师的指导！**
+
 ## 1.启动25kg机械臂——实物控制demo (moveit控制)
 <div align="center">
 <table>
@@ -48,7 +50,7 @@ roslaunch device_driver start_controller.launch controller_name:=joint_trajector
 roslaunch arm25kg_moveit_config demo.launch
 ```
 
-## 2.windows机械臂示教器使用（致谢韩冰老师）
+## 2.windows机械臂示教器使用
 <div align="center">
 <table>
 <tr>
