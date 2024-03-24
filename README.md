@@ -65,3 +65,4 @@ roslaunch arm25kg_moveit_config demo.launch
 双击 ***\HBRobot\HBRobotConfigure.exe
 
 ### 使用
+详见：
