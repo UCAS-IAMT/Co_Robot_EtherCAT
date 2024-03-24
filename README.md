@@ -27,7 +27,7 @@
 ```
 cd /home/robot/Work/EtherCAT/acontis/master
 su            //pwd = robot
-./runECM.sh
+（启动命令）./runECM.sh
 
 （停止命令）./stopECM.sh
 ```
