@@ -65,4 +65,4 @@ roslaunch arm25kg_moveit_config demo.launch
 双击 ***\HBRobot\HBRobotConfigure.exe
 
 ### 使用
-详见：
+详见：https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/tree/main/simulator
