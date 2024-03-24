@@ -48,7 +48,7 @@ roslaunch device_driver start_controller.launch controller_name:=joint_trajector
 roslaunch arm25kg_moveit_config demo.launch
 ```
 
-## 2.windows机械臂示教器使用
+## 2.windows机械臂示教器使用（致谢韩冰老师）
 <div align="center">
 <table>
 <tr>
