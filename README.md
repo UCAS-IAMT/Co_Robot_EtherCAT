@@ -3,7 +3,23 @@
 
 **系统环境**：Ubuntu16.04 + Ros1-kinetic
 
-### 启动25kg机械臂——实物控制demo (moveit控制)
+## 1.启动25kg机械臂——实物控制demo (moveit控制)
+<div align="center">
+<table>
+<tr>
+<td>
+
+![image](https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/images/1.1.jpg)   
+
+</td>
+<td>
+
+![image](https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/images/1.2.jpg)   
+
+</td>
+</tr>
+</table>
+</div>
 
 先确定网线、48v电源线、24v电源线已经插上；ethercat板子冒蓝光（检查每个关节）
 
@@ -31,4 +47,6 @@ source devel/setup.bash
 roslaunch device_driver start_controller.launch controller_name:=joint_trajectory_controller
 roslaunch arm25kg_moveit_config demo.launch
 ```
+
+## windows机械臂示教器使用
 
