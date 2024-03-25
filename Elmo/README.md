@@ -2,7 +2,7 @@
 
 ## 1. 电机整定
 ```
-上电 & 通讯电机
+1-1  上电 & 通讯电机
 ```
 ![image](https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/images/m1.jpg)   
 ![image](https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/images/m2.jpg)
@@ -11,6 +11,6 @@
 ![image](https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/images/m5.jpg)   
 
 ```
-下电
+1-2  下电
 ```
 ![image](https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/images/m6.jpg)   
