@@ -80,7 +80,7 @@ roslaunch arm25kg_moveit_config demo.launch
 <tr>
 <td>
 
-![]()  
+![](https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/images/m1.jpg)  
 
 </td>
 </tr>
@@ -93,4 +93,4 @@ roslaunch arm25kg_moveit_config demo.launch
 2.整定电机内部PID（当发现机械臂位置控制时，moveit界面和实物偏差很大，建议重新整定一下各个电机）
 
 ### 使用
-详见：
+详见：https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/tree/main/Elmo
