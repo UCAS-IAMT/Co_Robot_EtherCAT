@@ -80,7 +80,7 @@ roslaunch arm25kg_moveit_config demo.launch
 <tr>
 <td>
 
-![](https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/images/m1.jpg)  
+![](https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/images/m0.jpg)  
 
 </td>
 </tr>
