@@ -75,17 +75,8 @@ roslaunch arm25kg_moveit_config demo.launch
 详见：https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/tree/main/simulator
 
 ## 3.Elmo Application Studio II
-<div align="center">
-<table>
-<tr>
-<td>
 
 ![](https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/images/m0.jpg)  
-
-</td>
-</tr>
-</table>
-</div>
 
 ### 作用
 1.清除电机报错
