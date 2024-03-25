@@ -1,11 +1,16 @@
-# ros_control_co_robot
+# Elmo
 
-## urdf
+## 1. 电机整定
+```
+上电 & 通讯电机
+```
+![image](https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/images/m1.jpg)   
+![image](https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/images/m2.jpg)
+![image](https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/images/m3.jpg)   
+![image](https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/images/m4.jpg)   
+![image](https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/images/m5.jpg)   
 
-co_robot.urdf ：最初的建模，去掉两个夹爪；
-co_robot_environment.urdf.xacro ：更改了配色，设置了环境，末端重新添加了魔改版kuka力矩传感；
-
-## launch
-
-co_robot_urdf.launch ：co_robot.urdf + 7个joint的position_controller；
-co_robot_urdf_environment.launch ：co_robot_environment.urdf.xacro + 7个joint的position_controller；
+```
+下电
+```
+![image](https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/images/m6.jpg)   
