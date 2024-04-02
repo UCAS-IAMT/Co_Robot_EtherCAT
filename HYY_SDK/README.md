@@ -3,6 +3,7 @@
 
 
 ## 编译
+把src目录下的cpp文件，进行编译产生可执行文件HYYRobotMain，运行的是main.cpp中的内容。
 ```
 《方法一》
 cd build
