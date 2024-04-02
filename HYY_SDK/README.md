@@ -1,9 +1,9 @@
-# ros_control_co_robot
+# HYY_SDK
+**HYYRobotX64GRIP**
 
-## urdf
+## 编译
 
-co_robot.urdf ：最初的建模，去掉两个夹爪；
-co_robot_environment.urdf.xacro ：更改了配色，设置了环境，末端重新添加了魔改版kuka力矩传感；
+
 
 ## launch
 
