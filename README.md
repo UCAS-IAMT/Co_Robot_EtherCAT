@@ -96,7 +96,7 @@ roslaunch arm25kg_moveit_config demo.launch
     build: 1
 ```
 ### 作用
-1.适配25kg机械臂的SDK，可用于二次开发
+1.适配25kg机械臂的SDK，可用于二次开发（电流环，做力控）
 
 ### 使用
 详见：https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/tree/main/HYY_SDK
