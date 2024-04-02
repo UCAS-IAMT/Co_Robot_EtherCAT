@@ -21,3 +21,13 @@ cd build
 su
 ./HYYRobotMain --path /home/robot/Work/system/robot_config
 ```
+
+## 遇到的问题
+### 1.version版本没对应上
+**解决办法**：检查/home/robot/Work/system/robot_config目录下的yaml配置文件，开头4行参数
+
+### 2.报错如下
+```
+libcyaml: ERROR: Load: Unexpected key: ethercat_pdo
+```
+**解决办法**：/home/robot/Work/system/robot_config目录下的BusConfig.yaml中，第10行，将ethercat_pdo改成bus_pdo
