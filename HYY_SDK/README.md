@@ -4,13 +4,13 @@
 
 ## 编译
 ```
-"方法一"
+《方法一》
 cd build
 cmake ..
 make
 ```
 ```
-"方法二"
+《方法二》
 按下F5  //我配置了.vscode目录下的launch.json和tasks.json配置文件，可以进行debug
 ```
 
