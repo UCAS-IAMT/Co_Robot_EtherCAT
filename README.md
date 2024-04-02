@@ -89,6 +89,8 @@ roslaunch arm25kg_moveit_config demo.launch
 ## 4.HYYRobotX64GRIP
 版本，根据自己的实际情况进行更改，说明书中使用11.4.1
 
+语言：c++
+
  version: **11.4.1**
 ```
     major: 11
