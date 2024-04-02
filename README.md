@@ -87,6 +87,8 @@ roslaunch arm25kg_moveit_config demo.launch
 详见：https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/tree/main/Elmo
 
 ## 4.HYYRobotX64GRIP
+版本，根据自己的实际情况进行更改，说明书中使用11.4.1
+
  version: **11.4.1**
 ```
     major: 11
