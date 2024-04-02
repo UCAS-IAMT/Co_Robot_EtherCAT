@@ -1,5 +1,5 @@
 # Co_Robot_EtherCAT——2024.3.24
-七轴25kg协作机械臂EtherCAT通讯控制
+EtherCAT通讯控制; 上位机示教器； Elmo整定pid； SDK二次开发；
 
 **系统环境**：Ubuntu16.04 + Ros1-kinetic ；上位机示教器（windows 10测试通过）
 
