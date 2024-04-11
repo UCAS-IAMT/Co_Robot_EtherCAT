@@ -1,6 +1,7 @@
 # HYY_SDK
 **HYYRobotX64GRIP**
 
+可执行文件一定要**root启动**
 
 ## 编译
 把src目录下的cpp文件，进行编译产生可执行文件HYYRobotMain，运行的是main.cpp中的内容。
