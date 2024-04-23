@@ -3,6 +3,8 @@
 
 可执行文件一定要**root启动**
 
+/include/DeviceDriver/device_interface.h中**大写字母的函数返回值是处理过后的数据**，小写字母的函数返回值是原始数据
+
 ## 一、编译
 把src目录下的cpp文件，进行编译产生可执行文件HYYRobotMain，运行的是main.cpp中的内容。
 ```
