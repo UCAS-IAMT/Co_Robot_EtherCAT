@@ -17,7 +17,7 @@ make
 ```
 如何编写可执行sh脚本
 ```
-xxx.sh 和 HYYRobotMain可执行文件，都需要进行 chmod +x
+xxx.sh 和 HYYRobotMain可执行文件，都需要进行 chmod +x （文件名）的操作
 添加权限
 ```
 
