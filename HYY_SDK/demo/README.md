@@ -1,5 +1,7 @@
 # 常用指令
 
+遇到报错，先检查是否以管理员权限运行；是否上电；ethercat通信是否正常；
+
 1. ethercat通讯
 ```
 cd /home/robot/Work/EtherCAT/acontis/master
