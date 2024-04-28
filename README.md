@@ -72,7 +72,9 @@ roslaunch arm25kg_moveit_config demo.launch
 双击 ***\HBRobot\HBRobotConfigure.exe
 
 ### 使用
-详见：https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/tree/main/simulator
+上电\下电、零点标定、清楚报错详见：https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/tree/main/simulator
+
+动力学参数辨识：https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/tree/main/dynamic
 
 ## 3.Elmo Application Studio II
 
