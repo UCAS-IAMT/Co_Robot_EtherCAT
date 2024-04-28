@@ -55,7 +55,7 @@ Ubuntu电脑的网口3，静态ip是 192.168.0.99 ；所以笔记本电脑的网
 
 ### 2-2 上位机ui交互界面
 ```
-1）ip连接，使能实物机器人
+1）ip连接，上电，使能实物机器人
 ```
 ![](https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/images/simulator_2-2-1.jpg)
 
@@ -69,4 +69,15 @@ Ubuntu电脑的网口3，静态ip是 192.168.0.99 ；所以笔记本电脑的网
 2）下电
 ```
 ![](https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/images/simulator_2-2-5.jpg)
+
+```
+3）零点标定
+```
+![](https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/dynamic/33.jpg)
+
+```
+4）清楚报错
+```
+![](https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/dynamic/44.jpg)
+
 
