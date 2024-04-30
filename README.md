@@ -87,6 +87,12 @@ roslaunch arm25kg_moveit_config demo.launch
 
 2.整定电机内部PID（当发现机械臂位置控制时，moveit界面和实物偏差很大，建议重新整定一下各个电机）
 
+### 注意事项
+```
+如果遇到示教器使能机械臂后，某几个轴依旧无法运动的情况
+```
+检查一下编码器信号线（黑色胶线）是不是松了
+
 ### 使用
 详见：https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/tree/main/Elmo
 
