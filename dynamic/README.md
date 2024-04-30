@@ -3,8 +3,8 @@
 如果遇到辨识失败的情况，尝试清楚报错/重新上电/重启通讯
 ```
 在进行动力学参数辨识之前，把机械臂移动到竖直零位位置
-先进行零点标定和传感器标定
 ```
+**先进行零点标定和传感器标定**
 
 正常启动的终端内容：https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/dynamic/dy.txt
 ```
