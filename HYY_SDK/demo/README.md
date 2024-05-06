@@ -35,6 +35,7 @@ chmod +x HYYRobotMain
 
 4. 杀死线程
 ```
+su
 (停止通信，记得也断电重启一下) pkill EtherCATMaster
 (终止示教程序的运行) pkill RobotMain
 (终止c++可执行文件) pkill HYYRobotMain
