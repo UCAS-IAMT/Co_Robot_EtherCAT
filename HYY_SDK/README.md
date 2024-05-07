@@ -118,7 +118,7 @@ axis 6 is poweroff failure!
 poweroff timeout-->poweroff failure!
 axis 7 is poweroff failure!
 ```
-**解决办法**：1）机械臂下电，重启ethercat通讯，用示教器测试是否可以正常使能；2）检查是否上电，急停开关是否释放；
+**解决办法**：1）机械臂下电，重启ethercat通讯，用示教器测试是否可以正常使能；2）检查是否上电，急停开关是否释放；3）关一下48v总电源，同时关闭24v和ethercat通讯，重新上电；
 
 ### 7.关节存在运动错误信息
 ```
