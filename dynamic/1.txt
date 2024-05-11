@@ -1,0 +1,430 @@
+root@robot:/home/robot/Work/system# ./runrobot.sh 
+root@robot:/home/robot/Work/system# ============start robot control======================
+start run time:20240511171141
+verison: 12.0.0
+Author: HanBing
+Email: A994055925@163.com
+Data file path: /home/robot/Work/system/robot_config/app/
+Start system initialize!
+USE JOINT SENSOR
+MOTOR RELATIVE ENCOUDER AND OUT SINGLE ABSOLUTE ENCOUDER
+group init existing problem. Some fields are not found!
+dof num is 8
+control:8,state:8,mode:8
+ac_position:8,ac_velocity:8,ac_torque:8,ac_position2:8,ac_velocity2:0,ac_sensor_torque:8,ac_mode:0,ErrorCode:0,FollowingErrorActualValue:0
+position:8,velocity:0,torque:8,VelocityOffset:0,TorqueOffset:0,TorqueMaxLimit:0,TorqueMinLimit:0
+ethercat slave station number is differernt configure file!,slave number: 8>configure number: 7
+Data migration for CNITECH
+/////////////////////////////////////////////////////////////////
+fd_ecat_in_name: /ecat_in
+fd_ecat_out_name: /ecat_out
+/////////////////////////////////////////////////////////////////
+state: StatusWord
+control: ControlWord
+mode: ModeOfOperation
+ac_position: MotorPosition
+ac_velocity: MotorVelocity
+ac_torque: ActualCurrent
+ac_position2: ActualPosition
+ac_velocity2: 
+ac_sensor_torque: ActualTorque
+ac_mode: 
+ErrorCode: 
+FollowingErrorActualValue: 
+position: TargetPosition
+velocity: 
+torque: TargetTorque
+VelocityOffset: 
+TorqueOffset: 
+TorqueMaxLimit: 
+TorqueMinLimit: 
+ec_di: 
+ec_do: 
+ec_ai: 
+ec_ao: 
+ec_li: 
+ec_lo: 
+Number of fields: 26
+busyTs: 1000000 ns
+/////////////////////////////////////////////////////////////////
+ec_device1/robot0: 
+DOF: 7
+0_state: 0
+0_control: 0
+0_mode: 16
+0_ac_position: 16
+0_ac_velocity: 48
+0_ac_torque: 80
+0_ac_current: -999999
+0_ac_position2: 256
+0_ac_velocity2: -999999
+0_ac_sensor_torque: 240
+0_ac_mode: -999999
+0_ErrorCode: -999999
+0_FollowingErrorActualValue: -999999
+0_position: 48
+0_velocity: -999999
+0_torque: 32
+0_VelocityOffset: -999999
+0_TorqueOffset: -999999
+0_TorqueMaxLimit: -999999
+0_TorqueMinLimit: -999999
+1_state: 144
+1_control: 144
+1_mode: 160
+1_ac_position: 160
+1_ac_velocity: 192
+1_ac_torque: 224
+1_ac_current: -999999
+1_ac_position2: 400
+1_ac_velocity2: -999999
+1_ac_sensor_torque: 384
+1_ac_mode: -999999
+1_ErrorCode: -999999
+1_FollowingErrorActualValue: -999999
+1_position: 192
+1_velocity: -999999
+1_torque: 176
+1_VelocityOffset: -999999
+1_TorqueOffset: -999999
+1_TorqueMaxLimit: -999999
+1_TorqueMinLimit: -999999
+2_state: 288
+2_control: 288
+2_mode: 304
+2_ac_position: 304
+2_ac_velocity: 336
+2_ac_torque: 368
+2_ac_current: -999999
+2_ac_position2: 544
+2_ac_velocity2: -999999
+2_ac_sensor_torque: 528
+2_ac_mode: -999999
+2_ErrorCode: -999999
+2_FollowingErrorActualValue: -999999
+2_position: 336
+2_velocity: -999999
+2_torque: 320
+2_VelocityOffset: -999999
+2_TorqueOffset: -999999
+2_TorqueMaxLimit: -999999
+2_TorqueMinLimit: -999999
+3_state: 432
+3_control: 432
+3_mode: 448
+3_ac_position: 448
+3_ac_velocity: 480
+3_ac_torque: 512
+3_ac_current: -999999
+3_ac_position2: 688
+3_ac_velocity2: -999999
+3_ac_sensor_torque: 672
+3_ac_mode: -999999
+3_ErrorCode: -999999
+3_FollowingErrorActualValue: -999999
+3_position: 480
+3_velocity: -999999
+3_torque: 464
+3_VelocityOffset: -999999
+3_TorqueOffset: -999999
+3_TorqueMaxLimit: -999999
+3_TorqueMinLimit: -999999
+4_state: 576
+4_control: 576
+4_mode: 592
+4_ac_position: 592
+4_ac_velocity: 624
+4_ac_torque: 656
+4_ac_current: -999999
+4_ac_position2: 832
+4_ac_velocity2: -999999
+4_ac_sensor_torque: 816
+4_ac_mode: -999999
+4_ErrorCode: -999999
+4_FollowingErrorActualValue: -999999
+4_position: 624
+4_velocity: -999999
+4_torque: 608
+4_VelocityOffset: -999999
+4_TorqueOffset: -999999
+4_TorqueMaxLimit: -999999
+4_TorqueMinLimit: -999999
+5_state: 720
+5_control: 720
+5_mode: 736
+5_ac_position: 736
+5_ac_velocity: 768
+5_ac_torque: 800
+5_ac_current: -999999
+5_ac_position2: 976
+5_ac_velocity2: -999999
+5_ac_sensor_torque: 960
+5_ac_mode: -999999
+5_ErrorCode: -999999
+5_FollowingErrorActualValue: -999999
+5_position: 768
+5_velocity: -999999
+5_torque: 752
+5_VelocityOffset: -999999
+5_TorqueOffset: -999999
+5_TorqueMaxLimit: -999999
+5_TorqueMinLimit: -999999
+6_state: 864
+6_control: 864
+6_mode: 880
+6_ac_position: 880
+6_ac_velocity: 912
+6_ac_torque: 944
+6_ac_current: -999999
+6_ac_position2: 1120
+6_ac_velocity2: -999999
+6_ac_sensor_torque: 1104
+6_ac_mode: -999999
+6_ErrorCode: -999999
+6_FollowingErrorActualValue: -999999
+6_position: 912
+6_velocity: -999999
+6_torque: 896
+6_VelocityOffset: -999999
+6_TorqueOffset: -999999
+6_TorqueMaxLimit: -999999
+6_TorqueMinLimit: -999999
+/////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////
+Device is running
+InitRobot
+EncorderOutCalibrationIn
+Hardware Match
+Hardware information: 
+     cpuid:E3060400FFFBEBBF
+     mac:68eda43b7a73
+Real machine running mode
+init_robot_teach
+set_robot_index
+set_addition_index
+get_addition_num
+get_robot_num
+initialize finish
+start teach server port 6666
+start teach command server port 6667
+start teach feedback server port 6668
+TCPConcurrentServer: client connect (43)
+get_robot_run_type
+get_robot_num
+get_addition_num
+get_robot_tool_num
+get_robot_tool
+get_robot_wobj_num
+get_robot_wobj
+get_robot_teach_coordinate
+set_robot_teach_coordinate
+get_robot_teach_velocity
+get_teach_move_type
+device_teach_enable
+device_teach_disenable
+device_teach_enable
+calibrate_robot_zero_position
+calibrate_robot_zero_axis_position, index: 0
+calibrate_robot_zero_axis_position, index: 1
+calibrate_robot_zero_axis_position, index: 2
+calibrate_robot_zero_axis_position, index: 3
+calibrate_robot_zero_axis_position, index: 4
+calibrate_robot_zero_axis_position, index: 5
+calibrate_robot_zero_axis_position, index: 6
+calibrate_robot_zero_sensortorque
+calibrate_robot_zero_axis_sensortorque, index: 0
+calibrate_robot_zero_axis_sensortorque, index: 1
+calibrate_robot_zero_axis_sensortorque, index: 2
+calibrate_robot_zero_axis_sensortorque, index: 3
+calibrate_robot_zero_axis_sensortorque, index: 4
+calibrate_robot_zero_axis_sensortorque, index: 5
+calibrate_robot_zero_axis_sensortorque, index: 6
+device_teach_disenable
+device_teach_enable
+identification_dynamics_data
+dynamics_calibration_data: data collection
+dynamics_calibration_data: data collection
+          part1-------------data filtering-----------------
+dynamics_calibration_data: axis(0) data collection
+dynamics_calibration_data: axis(1) data collection
+dynamics_calibration_data: axis(2) data collection
+dynamics_calibration_data: axis(3) data collection
+dynamics_calibration_data: axis(4) data collection
+dynamics_calibration_data: axis(5) data collection
+dynamics_calibration_data: axis(6) data collection
+          part1-------------data filtering-----------------
+_dynamics_identification_data_for_gravity: data collection
+_identification_dynamics_data: finish
+identification_dynamics
+dynParamIdentification: start dynamic parameter identification
+          part2------------get data for parameters individual-----------------
+          part3------------parameters individual-----------------
+independent: YES;  correlation: NO; zero correlation: NO_0
+
+m[1]=NO_0
+m*cmx[1]=YES
+m*cmy[1]=NO
+m*cmz[1]=NO_0
+
+m[2]=NO_0
+m*cmx[2]=YES
+m*cmy[2]=YES
+m*cmz[2]=NO
+
+m[3]=YES
+m*cmx[3]=YES
+m*cmy[3]=YES
+m*cmz[3]=NO
+
+m[4]=NO
+m*cmx[4]=YES
+m*cmy[4]=YES
+m*cmz[4]=NO
+
+m[5]=YES
+m*cmx[5]=YES
+m*cmy[5]=YES
+m*cmz[5]=NO
+
+m[6]=NO
+m*cmx[6]=YES
+m*cmy[6]=YES
+m*cmz[6]=NO
+
+m[7]=YES
+m*cmx[7]=YES
+m*cmy[7]=YES
+m*cmz[7]=NO
+independence parameters number:  16
+dependence parameters number:  12 (no zero paramater:9, zero parameter:3)
+          part4------------get parameters matrix -----------------
+          part5------------get parameters individual matrix-----------------
+          part6---------------------Independence parameter solve-----------------
+Evaluated error:
+ 0.000000, 84.961807, 17.751780, 17.751780, 39.620603, 420.212279, 142.777303, 28.890991, 40.624514, 470.346780, 243.620242, 114.997157, 16.550249, 17.154734, 410.598425, 46.016263, 
+          part7--------------dynamic parameter update--------------
+dynParamIdentification_for_inertia: start dynamic parameter identification
+          part2------------get data for parameters individual-----------------
+          part3------------parameters individual-----------------
+independent: YES;  correlation: NO; zero correlation: NO_0
+
+m[1]=NO_0
+m*cmx[1]=NO_0
+m*cmy[1]=NO_0
+m*cmz[1]=NO_0
+
+m[2]=NO_0
+m*cmx[2]=YES
+m*cmy[2]=YES
+m*cmz[2]=YES
+
+m[3]=YES
+m*cmx[3]=NO
+m*cmy[3]=YES
+m*cmz[3]=YES
+
+m[4]=YES
+m*cmx[4]=YES
+m*cmy[4]=YES
+m*cmz[4]=NO
+
+m[5]=YES
+m*cmx[5]=YES
+m*cmy[5]=YES
+m*cmz[5]=YES
+
+m[6]=YES
+m*cmx[6]=NO
+m*cmy[6]=YES
+m*cmz[6]=YES
+
+m[7]=YES
+m*cmx[7]=YES
+m*cmy[7]=YES
+m*cmz[7]=NO
+
+m[8]=YES
+m*cmx[8]=YES
+m*cmy[8]=YES
+m*cmz[8]=YES
+
+m[9]=YES
+m*cmx[9]=NO
+m*cmy[9]=YES
+m*cmz[9]=YES
+
+m[10]=YES
+m*cmx[10]=YES
+m*cmy[10]=YES
+m*cmz[10]=NO
+
+m[11]=YES
+m*cmx[11]=YES
+independence parameters number:  31
+dependence parameters number:  11 (no zero paramater:6, zero parameter:5)
+          part4------------get parameters matrix -----------------
+          part5------------get parameters individual matrix-----------------
+          part6---------------------Independence parameter solve-----------------
+Evaluated error:
+ 1557.160792, 14.332167, 41.622740, 21.793382, 11.197131, 49.391321, 35.613386, 74.815988, 20.870624, 43.334564, 41.751026, 12.427076, 30.149140, 136.778402, 35.301171, 13.489516, 22.552342, 46.704863, 68.754584, 56.370922, 73.783812, 29.060061, 82.927087, 58.011051, 23.610911, 27.942489, 22.948485, 58.814049, 32.765597, 56.191438, 95.197481, 
+          part7--------------dynamic parameter update--------------
+          part8----joint 0--------get joint parameters individual matrix-----------------
+          part9----joint 0-----------------joint independence parameter solve-----------------
+Evaluated error:
+ 1.853048, 1.347886, 2.019288, 1.837756, 
+          part8----joint 1--------get joint parameters individual matrix-----------------
+          part9----joint 1-----------------joint independence parameter solve-----------------
+Evaluated error:
+ 3.523499, 2.809576, 14.395756, 3.060433, 
+          part8----joint 2--------get joint parameters individual matrix-----------------
+          part9----joint 2-----------------joint independence parameter solve-----------------
+Evaluated error:
+ 2.225000, 1.419180, 3.408964, 1.197987, 
+          part8----joint 3--------get joint parameters individual matrix-----------------
+          part9----joint 3-----------------joint independence parameter solve-----------------
+Evaluated error:
+ 2.750457, 2.196421, 1.871182, 1.665532, 
+          part8----joint 4--------get joint parameters individual matrix-----------------
+          part9----joint 4-----------------joint independence parameter solve-----------------
+Evaluated error:
+ 1414.936884, 1.754159, 1.828939, 1.239282, 
+          part8----joint 5--------get joint parameters individual matrix-----------------
+          part9----joint 5-----------------joint independence parameter solve-----------------
+Evaluated error:
+ 9.828448, 1.767115, 2.486875, 1.173914, 
+          part8----joint 6--------get joint parameters individual matrix-----------------
+          part9----joint 6-----------------joint independence parameter solve-----------------
+Evaluated error:
+ 22.281281, 2.210234, 2.146556, 1.169402, 
+          part8----joint 0--------get joint parameters individual matrix-----------------
+          part9----joint 0-----------------joint independence parameter solve-----------------
+Evaluated error:
+ 3.765014, 
+          part8----joint 1--------get joint parameters individual matrix-----------------
+          part9----joint 1-----------------joint independence parameter solve-----------------
+Evaluated error:
+ 0.482408, 
+          part8----joint 2--------get joint parameters individual matrix-----------------
+          part9----joint 2-----------------joint independence parameter solve-----------------
+Evaluated error:
+ 0.685410, 
+          part8----joint 3--------get joint parameters individual matrix-----------------
+          part9----joint 3-----------------joint independence parameter solve-----------------
+Evaluated error:
+ 1.221100, 
+          part8----joint 4--------get joint parameters individual matrix-----------------
+          part9----joint 4-----------------joint independence parameter solve-----------------
+Evaluated error:
+ 1.301802, 
+          part8----joint 5--------get joint parameters individual matrix-----------------
+          part9----joint 5-----------------joint independence parameter solve-----------------
+Evaluated error:
+ 0.554295, 
+          part8----joint 6--------get joint parameters individual matrix-----------------
+          part9----joint 6-----------------joint independence parameter solve-----------------
+Evaluated error:
+ 1.296820, 
+_identification_dynamics: finish
+device_teach_disenable
+
