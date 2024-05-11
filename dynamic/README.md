@@ -7,6 +7,7 @@
 **先进行零点标定和传感器标定**
 
 正常启动的终端内容：https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/dynamic/dy.txt
+
 效果最好的一次：https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/blob/main/dynamic/1.txt
 ```
 点完“数据采集”，正常情况下，机械臂会进行10分钟左右的激励轨迹运动过程。
