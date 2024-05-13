@@ -76,7 +76,7 @@ roslaunch arm25kg_moveit_config demo.launch
 
 动力学参数辨识：https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/tree/main/dynamic
 
-传感器零点标定：https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/tree/main/sensor
+关节力矩传感器标定/机械臂零位标定：https://github.com/UCAS-IAMT/Co_Robot_EtherCAT/tree/main/sensor
 
 ## 3.Elmo Application Studio II
 
