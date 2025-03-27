@@ -112,7 +112,7 @@ roslaunch arm25kg_moveit_config demo.launch
 ### 虚拟机（推荐自己配置，学习一下流程）
 我已经全部配置好了，还上传了代码（胡翰泽-2024-3-28）【版本：Ubuntu_16.04】
 
-下载链接：https://pan.quark.cn/s/a86504934749
+下载链接：
 
 ### 作用
 1.适配25kg机械臂的SDK，可用于二次开发（电流环，做力控）
